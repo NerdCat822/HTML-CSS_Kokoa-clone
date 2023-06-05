@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <title>Home - My first website.</title>
+        <style>
+            body {
+                height: 1000vh;
+                margin: 50px;
+            }
+            div {
+                font-size: 28px;
+                width: 50px;
+                height: 50px;
+                background-color: teal;
+            }
+            p ~ span {
+                background-color: tomato;
+            }
+            input {
+                border: 1px solid wheat;
+            }
+            input:required {
+                border-color: tomato;
+            }
+            input[type="password"] {
+                background-color: thistle;
+            }
+            input[placeholder~="name"] {
+                background-color: pink;
+            }
+            button:active {
+                background-color: tomato;
+            }
+            a:visited {
+                background-color: tomato;
+            }
+            form {
+                border: 1px solid salmon;
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
+            }
+            form:focus-within {
+                border-color: seagreen;
+
+            }
+            form:hover input {
+                background-color: sienna;
+            }
+            form:hover input:focus {
+                background-color: whitesmoke;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="https://apple.com">Go to apple</a>
+        <form>
+            <input type="text" name="" id="" />
+            <input type="text" name="" id="" />
+            <input type="text" name="" id="" />
+        </form>
+    </body>
+</html>
